@@ -1,0 +1,112 @@
+html,body{
+ color: black;
+ background-color: white;
+}
+
+a:link,a:visited{
+ color: blue;
+ text-decoration: underline;
+}
+
+a:hover{
+ color: red;
+ text-decoration: none;
+}
+
+#threadlistbox,.thread,.permasagedthread,.post,.postform,#loginform,#navigation,#allthreads,#threadform{
+ background-color: white;
+ color: black;
+ border: 1px solid black;
+ -moz-border-radius: .5em;
+ -webkit-border-radius: .5em;
+ border-radius: .5em;
+}
+
+#threadlistbox,.thread,.permasagedthread,.post,.postform,#loginform,#navigation,#allthreads,#threadform{
+ margin: .5em;
+ padding: .5em;
+}
+
+#threadlistbox,.thread,#navigation,#allthreads,#threadform{
+ background-color: #f0f8ff;
+}
+
+.permasagedthread{
+ background-color: #e0b0ff; /* mauve, lol */
+}
+
+.postbody p,#threadlistnav{
+ margin: .25em;
+}
+
+#threadlistnav{
+ text-align: right;
+}
+
+.threadtitle{
+ font-size: large;
+ font-weight: bold;
+}
+
+.postheader{
+ font-size: x-small;
+}
+
+.postnum{
+ font-size: small;
+}
+
+.postername{
+ color: gray;
+}
+
+.postertrip{
+ color: green;
+}
+
+.deleted{
+ color: gray;
+}
+
+#adminpanelthreads * form,#adminpanelthreads * form p{
+ display: inline;
+}
+
+.footer{
+ text-align: center;
+ font-size: xx-small;
+}
+
+label[for|="comment"]{
+ display: none;
+}
+
+blockquote{
+ color: #01796f;
+ background-color: #f0f8ff;
+}
+
+.image,.nothumb,.commenttext{
+ display: table-cell;
+}
+
+.commenttext{
+ vertical-align: top;
+}
+
+.navarrows{
+ float: right;
+}
+
+.spoilertext, .spoilerbutton:focus {
+ display:none;
+}
+
+.spoilerbutton:focus + .spoilertext {
+ display:block;
+}
+
+:lang(ja){
+ font-family: ms pgothic, ms ui gothic, mona, sans-serif;
+ font-size: 12pt;
+}
