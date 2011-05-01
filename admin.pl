@@ -397,9 +397,8 @@ use PerlHP;
   $sth->execute() or die S_DBERR;
   $sth=$dbh->prepare('CREATE TABLE IF NOT EXISTS posts(num SMALLINT UNSIGNED '.
    'NOT NULL,thread BIGINT UNSIGNED NOT NULL REFERENCES threads(id),time TEXT,'.
-   'name TEXT, trip TEXT, link TEXT,comment TEXT,ip TEXT,deleted BOOL,INDEX '.
-   'postindex (thread,id));') or die
-   S_DBERR;
+   'name TEXT,trip TEXT,link TEXT,comment TEXT,ip TEXT,file TEXT,filename TEXT'.
+   ',deleted BOOL,INDEX postindex (thread,num));') or die S_DBERR;
   $sth->execute() or die S_DBERR;
  }
 
