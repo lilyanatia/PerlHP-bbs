@@ -136,7 +136,7 @@ use PerlHP;
 
   <p class="footer">
    -
-    <%= sprintf(S_POWERED,'<a href="http://wakaba.c3.cx/perlhp/">PerlHP</a>',
+    <%= sprintf(S_POWERED,'<a href="https://github.com/hotaru2k3/perlhp">modified</a> <a href="http://wakaba.c3.cx/perlhp/">PerlHP</a>',
      '<a href="http://www.mysql.com/">MySQL</a>') %>
    -
   </p>
